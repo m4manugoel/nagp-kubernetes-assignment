@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: weatherforecast-database-config
+data:
+  connection_string: "Server= 10.8.129.44;Database=WeatherForecastDb;User=sa;Password=Passw0rd@123;MultipleActiveResultSets=true;TrustServerCertificate=True"
